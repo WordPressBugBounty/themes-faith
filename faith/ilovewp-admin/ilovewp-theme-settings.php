@@ -30,7 +30,7 @@ if( ! defined( 'ILOVEWP_THEME_REVIEW_URL' ) ) {
 	define( 'ILOVEWP_THEME_REVIEW_URL', 'https://wordpress.org/support/theme/faith/reviews/#new-post' );
 }
 if( ! defined( 'ILOVEWP_THEME_UPGRADE_URL' ) ) {
-	define( 'ILOVEWP_THEME_UPGRADE_URL', 'https://www.ilovewp.com/product/foundation/?utm_source=dashboard&utm_medium=doc-page&utm_campaign=faith&utm_content=upgrade-button' );
+	define( 'ILOVEWP_THEME_UPGRADE_URL', 'https://www.ilovewp.com/product/magma/?utm_source=dashboard&utm_medium=doc-page&utm_campaign=faith&utm_content=upgrade-button' );
 }
 if( ! defined( 'ILOVEWP_THEME_DEMO_IMPORT_URL' ) ) {
 	define( 'ILOVEWP_THEME_DEMO_IMPORT_URL', false );
@@ -118,6 +118,20 @@ function ilovewp_settings_page_doc() {
 
 						</div><!-- .doc-section -->
 						<?php } ?>
+					</div><!-- .ilovewp-doc-column-wrapper -->
+				</li><!-- .ilovewp-doc-column --><li class="ilovewp-doc-column ilovewp-doc-column-2">
+					<div class="ilovewp-doc-column-wrapper">
+					<?php if ( ILOVEWP_THEME_UPGRADE_URL ) { ?>
+						<div class="doc-section">
+							<h3 class="column-title"><span class="ilovewp-icon dashicons dashicons-cart"></span><span class="ilovewp-title-text"><?php esc_html_e('Upgrade to Magma','faith'); ?></span></h3>
+							<div class="ilovewp-doc-column-text-wrapper">
+								<p><?php esc_html_e('Build a fast, professional, and easy-to-manage website with Magma—a lightweight, high-performance theme designed for content-driven websites. Whether you’re creating a blog, a business site, or an organization’s homepage, Magma gives you full control without the bloat.','faith'); ?><br>
+
+								<p class="doc-buttons"><a class="button button-primary" href="<?php echo esc_url(ILOVEWP_THEME_UPGRADE_URL); ?>" rel="noopener" target="_blank"><?php esc_html_e('More about Magma','faith'); ?></a><?php if ( ILOVEWP_THEME_VIDEO_COMPARISON ) { ?><a class="button button-primary ilovewp-button ilovewp-button-youtube" href="<?php echo esc_url(ILOVEWP_THEME_VIDEO_COMPARISON); ?>" rel="noopener" target="_blank"><span class="dashicons dashicons-youtube"></span> <?php esc_html_e('Video about Magma','faith'); ?></a><?php } ?></p>
+
+							</div><!-- .ilovewp-doc-column-text-wrapper-->
+						</div><!-- .doc-section -->
+						<?php } ?>
 						<?php if ( ILOVEWP_THEME_REVIEW_URL ) { ?>
 						<div class="doc-section">
 							<h3 class="column-title"><span class="ilovewp-icon dashicons dashicons-awards"></span><span class="ilovewp-title-text"><?php esc_html_e('Leave a Review','faith'); ?></span></h3>
@@ -149,87 +163,6 @@ function ilovewp_settings_page_doc() {
 
 							</div><!-- .ilovewp-doc-column-text-wrapper-->
 						</div><!-- .doc-section -->
-					</div><!-- .ilovewp-doc-column-wrapper -->
-				</li><!-- .ilovewp-doc-column --><li class="ilovewp-doc-column ilovewp-doc-column-2">
-					<div class="ilovewp-doc-column-wrapper">
-						<?php if ( ILOVEWP_THEME_UPGRADE_URL ) { ?>
-						<div class="doc-section">
-							<h3 class="column-title"><span class="ilovewp-icon dashicons dashicons-cart"></span><span class="ilovewp-title-text"><?php esc_html_e('Upgrade to Foundation','faith'); ?></span></h3>
-							<div class="ilovewp-doc-column-text-wrapper">
-								<p><?php esc_html_e('Foundation is our newest WordPress theme for photographers. It contains many additional features and customization options. It also comes with priority one-on-one support.','faith'); ?><br>
-
-								<p class="doc-buttons"><a class="button button-primary" href="<?php echo esc_url(ILOVEWP_THEME_UPGRADE_URL); ?>" rel="noopener" target="_blank"><?php esc_html_e('More about Foundation','faith'); ?></a><?php if ( ILOVEWP_THEME_VIDEO_COMPARISON ) { ?><a class="button button-primary ilovewp-button ilovewp-button-youtube" href="<?php echo esc_url(ILOVEWP_THEME_VIDEO_COMPARISON); ?>" rel="noopener" target="_blank"><span class="dashicons dashicons-youtube"></span> <?php esc_html_e('Video about Foundation','faith'); ?></a><?php } ?></p>
-
-								<table class="theme-comparison-table">
-									<tr>
-										<th class="table-feature-title"><?php esc_html_e('Feature','faith'); ?></th>
-										<th class="table-lite-value"><?php esc_html_e('Faith','faith'); ?></th>
-										<th class="table-pro-value"><?php esc_html_e('Foundation','faith'); ?></th>
-									</tr>
-									<tr>
-										<td><div class="ilovewp-tooltip"><span class="dashicons dashicons-editor-help"></span><span class="ilovewp-tooltiptext"><?php esc_html_e('You can use the theme on any number of websites for as long as you wish.','faith'); ?></span></div><?php esc_html_e('Unlimited theme usage','faith'); ?></td>
-										<td><span class="dashicons dashicons-yes-alt"></span></td>
-										<td><span class="dashicons dashicons-yes-alt"></span></td>
-									</tr>
-									<tr>
-										<td><?php esc_html_e('Responsive Layout','faith'); ?></td>
-										<td><span class="dashicons dashicons-yes-alt"></span></td>
-										<td><span class="dashicons dashicons-yes-alt"></span></td>
-									</tr>
-									<tr>
-										<td><?php esc_html_e('Created for the Block Editor','faith'); ?></td>
-										<td><span class="dashicons dashicons-minus"></span></td>
-										<td><span class="dashicons dashicons-yes-alt"></span></td>
-									</tr>
-									<tr>
-										<td><?php esc_html_e('Color Customization','faith'); ?></td>
-										<td><div class="ilovewp-tooltip"><?php esc_html_e('Limited','faith'); ?><span class="ilovewp-tooltiptext"><?php esc_html_e('Limited color customization options are available.','faith'); ?></span></div></td>
-										<td><div class="ilovewp-tooltip"><strong><?php esc_html_e('Full','faith'); ?></strong><span class="ilovewp-tooltiptext"><?php esc_html_e('Full color customizations options will allow you to fully customize the look of your website.','faith'); ?></span></div></td>
-									</tr>
-									<tr>
-										<td><div class="ilovewp-tooltip"><span class="dashicons dashicons-editor-help"></span><span class="ilovewp-tooltiptext"><?php esc_html_e('Change the font and font size for the main elements on the website directly from the Customizer.','faith'); ?></span></div><?php esc_html_e('Font Customization','faith'); ?></td>
-										<td><?php esc_html_e('None','faith'); ?></td>
-										<td><div class="ilovewp-tooltip"><strong><?php esc_html_e('Full','faith'); ?></strong><span class="ilovewp-tooltiptext"><?php esc_html_e('Full typeface & font customizations options will allow you to fully customize the look of your website, with free access to 1000+ Google Fonts.','faith'); ?></span></div></td>
-									</tr>
-									<tr>
-										<td><div class="ilovewp-tooltip"><span class="dashicons dashicons-editor-help"></span><span class="ilovewp-tooltiptext"><?php esc_html_e('Ability to select the sidebar location individually for each page and post.','faith'); ?></span></div><?php esc_html_e('Individual Layout Settings','faith'); ?></td>
-										<td><span class="dashicons dashicons-minus"></span></td>
-										<td><span class="dashicons dashicons-yes-alt"></span></td>
-									</tr>
-									<tr>
-										<td><div class="ilovewp-tooltip"><span class="dashicons dashicons-editor-help"></span><span class="ilovewp-tooltiptext"><?php esc_html_e('Import the demo content for an easier start with the theme.','faith'); ?></span></div><?php esc_html_e('Demo Content Importer','faith'); ?></td>
-										<td><span class="dashicons dashicons-minus"></span></td>
-										<td><span class="dashicons dashicons-yes-alt"></span></td>
-									</tr>
-									<tr>
-										<td><?php esc_html_e('Custom Block Patterns','faith'); ?></td>
-										<td><?php esc_html_e('0','faith'); ?></td>
-										<td><strong><?php esc_html_e('19','faith'); ?></strong></td>
-									</tr>
-									<tr>
-										<td><?php esc_html_e('Theme Updates','faith'); ?></td>
-										<td><div class="ilovewp-tooltip"><?php esc_html_e('Limited','faith'); ?><span class="ilovewp-tooltiptext"><?php esc_html_e('The theme will be updated to fix potential bugs and serious issues.','faith'); ?></span></div></td>
-										<td><div class="ilovewp-tooltip"><strong><?php esc_html_e('Extensive','faith'); ?></strong><span class="ilovewp-tooltiptext"><?php esc_html_e('Frequent theme updates will contain new features, block patterns and other ideas suggested by our customers.','faith'); ?></span></div></td>
-									</tr>
-									<tr>
-										<td><?php esc_html_e('Automatic Updates','faith'); ?></td>
-										<td><span class="dashicons dashicons-yes-alt"></span></td>
-										<td><span class="dashicons dashicons-yes-alt"></span></td>
-									</tr>
-									<tr>
-										<td><?php esc_html_e('Support','faith'); ?></td>
-										<td><div class="ilovewp-tooltip"><?php esc_html_e('Nonpriority','faith'); ?><span class="ilovewp-tooltiptext"><?php esc_html_e('Support is provided in the WordPress.org community forums.','faith'); ?></span></div></td>
-										<td><div class="ilovewp-tooltip"><strong><?php esc_html_e('Priority Support','faith'); ?></strong><span class="ilovewp-tooltiptext"><?php esc_html_e('Quick and friendly support is available via email and Skype.','faith'); ?></span></div></td>
-									</tr>
-									<tr>
-										<td colspan="3" style="text-align: center;"><a class="button button-primary" href="<?php echo esc_url(ILOVEWP_THEME_UPGRADE_URL); ?>" rel="noopener" target="_blank"><?php esc_html_e('Upgrade to Foundation','faith'); ?></a>
-										</td>
-									</tr>
-								</table>
-
-							</div><!-- .ilovewp-doc-column-text-wrapper-->
-						</div><!-- .doc-section -->
-						<?php } ?>
 					</div><!-- .ilovewp-doc-column-wrapper -->
 				</li><!-- .ilovewp-doc-column -->
 			</ul><!-- .ilovewp-doc-columns -->

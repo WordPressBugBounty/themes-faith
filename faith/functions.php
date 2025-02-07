@@ -6,7 +6,7 @@ if ( ! isset( $content_width ) ) $content_width = 780;
  * Define some constats
  */
 if( ! defined( 'ILOVEWP_VERSION' ) ) {
-	define( 'ILOVEWP_VERSION', '1.3.1' );
+	define( 'ILOVEWP_VERSION', '1.3.2' );
 }
 if( ! defined( 'ILOVEWP_THEME_LITE' ) ) {
 	define( 'ILOVEWP_THEME_LITE', true );
@@ -444,7 +444,6 @@ require get_parent_theme_file_path() . '/inc/customizer.php';
 ================================== */
 
 require_once( get_template_directory() . '/ilovewp-admin/helper-functions.php');
-require_once( get_template_directory() . '/ilovewp-admin/components/ilovewp-tgmpa.php');
 
 //require only in admin!
 if(is_admin()){	
@@ -453,8 +452,8 @@ if(is_admin()){
 	if (current_user_can( 'manage_options' ) ) {
 		require_once(get_template_directory() . '/ilovewp-admin/admin-notices/ilovewp-notices.php');
 		require_once(get_template_directory() . '/ilovewp-admin/admin-notices/ilovewp-notice-welcome.php');
-		require_once(get_template_directory() . '/ilovewp-admin/admin-notices/ilovewp-notice-upgrade.php');
 		require_once(get_template_directory() . '/ilovewp-admin/admin-notices/ilovewp-notice-review.php');
+		require_once(get_template_directory() . '/ilovewp-admin/admin-notices/ilovewp-notice-magma.php');
 
 		// Remove theme data from database when theme is deactivated.
 		add_action('switch_theme', 'faith_db_data_remove');
@@ -471,24 +470,3 @@ if(is_admin()){
 	}
 
 }
-
-if ( ! function_exists( 'faith_bbp_supported_patterns' ) ) :
-function faith_bbp_supported_patterns($hook) {
-	$pattern_slugs = array(
-		'bbp-pattern-general-about-1',
-		'bbp-pattern-general-call-to-action-2',
-		'bbp-pattern-general-call-to-action-3',
-		'bbp-pattern-general-contact-2',
-		'bbp-pattern-general-featured-pages-1',
-		'bbp-pattern-general-featured-pages-2',
-		'bbp-pattern-general-partners-1',
-		'bbp-pattern-general-partners-2',
-		'bbp-pattern-general-team-2',
-		'bbp-pattern-general-team-3'
-
-	);
-	return $pattern_slugs;
-}
-endif;
-
-add_action( 'bbp_theme_supported_patterns', 'faith_bbp_supported_patterns' );

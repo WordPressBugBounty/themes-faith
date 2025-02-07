@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Faith\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-07 14:26+0000\n"
+"POT-Creation-Date: 2025-02-07 20:08+0000\n"
 "POT-Revision-Date: Wed Apr 26 2017 15:57:30 GMT+0200 (W. Europe Daylight "
 "Time)\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -36,16 +36,8 @@ msgstr ""
 msgid "&nbsp;"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:206
-msgid "0"
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:207
-msgid "19"
-msgstr ""
-
 #. 1: date, 2:time
-#: functions.php:329
+#: functions.php:326
 #, php-format
 msgctxt "1: date, 2: time"
 msgid "%1$s at %2$s"
@@ -57,11 +49,6 @@ msgstr ""
 msgid ""
 "<span class=\"theme-name\">%1$s Theme</span> <span class=\"theme-version\">"
 "(version %2$s)</span>"
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:195
-msgid ""
-"Ability to select the sidebar location individually for each page and post."
 msgstr ""
 
 #: inc/customizer.php:219
@@ -80,22 +67,20 @@ msgstr ""
 msgid "All Rights Reserved"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:215
-msgid "Automatic Updates"
-msgstr ""
-
 #: 404.php:23
 msgid "Browse Categories"
 msgstr ""
 
-#: inc/customizer.php:90
-msgid "Centered"
+#: ilovewp-admin/ilovewp-theme-settings.php:128
+msgid ""
+"Build a fast, professional, and easy-to-manage website with Magma—a "
+"lightweight, high-performance theme designed for content-driven websites. "
+"Whether you’re creating a blog, a business site, or an organization’s "
+"homepage, Magma gives you full control without the bloat."
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:190
-msgid ""
-"Change the font and font size for the main elements on the website directly "
-"from the Customizer."
+#: inc/customizer.php:90
+msgid "Centered"
 msgstr ""
 
 #: ilovewp-admin/admin-notices/ilovewp-notices.php:73
@@ -104,10 +89,6 @@ msgstr ""
 
 #: ilovewp-admin/ilovewp-theme-settings.php:114
 msgid "Click the image below to open the video guide in a new browser tab."
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:185
-msgid "Color Customization"
 msgstr ""
 
 #: comments.php:42 comments.php:63
@@ -145,12 +126,14 @@ msgstr ""
 msgid "Copyright &copy;"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:180
-msgid "Created for the Block Editor"
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:205
-msgid "Custom Block Patterns"
+#. %1$s current user display name.
+#: ilovewp-admin/admin-notices/ilovewp-notice-magma.php:64
+#, php-format
+msgid ""
+"Dear %1$s! %3$sIf you like using this theme, you’ll love Magma—a fantastic, "
+"high-performance theme designed to help you build a professional WordPress "
+"website with ease. %4$s is fast, flexible, and built for content-driven "
+"websites, giving you full control without unnecessary bloat."
 msgstr ""
 
 #. %1$s current user display name.
@@ -163,26 +146,16 @@ msgid ""
 "this theme."
 msgstr ""
 
-#. %1$s current user display name.
-#: ilovewp-admin/admin-notices/ilovewp-notice-upgrade.php:64
-#, php-format
-msgid ""
-"Dear %1$s! I hope you are happy with everything that the %2$s has to offer. "
-"%3$sIf you like the free Faith Theme, you will love my new multipurpose "
-"theme, which is also great for church websites. %3$s%4$s is a new (2022) "
-"theme that makes it very easy to create a professional WordPress website."
-msgstr ""
-
 #: inc/customizer.php:89 inc/customizer.php:734
 msgid "Default"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:200
-msgid "Demo Content Importer"
-msgstr ""
-
 #: inc/customizer.php:457
 msgid "Disclaimer text in footer"
+msgstr ""
+
+#: ilovewp-admin/admin-notices/ilovewp-notice-magma.php:75
+msgid "Discover Magma today!"
 msgstr ""
 
 #: inc/customizer.php:278
@@ -213,19 +186,18 @@ msgstr ""
 msgid "Documentation and Support"
 msgstr ""
 
-#: functions.php:311 functions.php:339
+#: functions.php:308 functions.php:336
 msgid "Edit"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:212
-msgid "Extensive"
-msgstr ""
-
 #. Name of the theme
-#: ilovewp-admin/ilovewp-theme-settings.php:166
 #: ilovewp-admin/admin-notices/ilovewp-notice-review.php:54
 #: ilovewp-admin/admin-notices/ilovewp-notice-welcome.php:46
 msgid "Faith"
+msgstr ""
+
+#: ilovewp-admin/admin-notices/ilovewp-notice-magma.php:56
+msgid "faith"
 msgstr ""
 
 #. Description of the theme
@@ -254,28 +226,24 @@ msgstr ""
 msgid "Faith Theme Video Tutorial"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:165
-msgid "Feature"
-msgstr ""
-
 #: inc/customizer.php:284
 msgid "Featured Content"
 msgstr ""
 
-#: functions.php:90
+#: functions.php:86
 msgid "Featured Image: Large (1600x500)"
 msgstr ""
 
-#: functions.php:91
+#: functions.php:87
+msgid "Featured Image: Medium (800x250)"
+msgstr ""
+
+#: functions.php:88
 msgid "Featured Image: Normal (480x300)"
 msgstr ""
 
-#: functions.php:92
+#: functions.php:89
 msgid "Featured Image: Thumbnail (240x150)"
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:190
-msgid "Font Customization"
 msgstr ""
 
 #: inc/customizer.php:446
@@ -290,45 +258,24 @@ msgstr ""
 msgid "Footer Text Color"
 msgstr ""
 
-#: functions.php:164
+#: functions.php:161
 msgid "Footer: Column 1"
 msgstr ""
 
-#: functions.php:174
+#: functions.php:171
 msgid "Footer: Column 2"
 msgstr ""
 
-#: functions.php:184
+#: functions.php:181
 msgid "Footer: Column 3"
 msgstr ""
 
-#: functions.php:194
+#: functions.php:191
 msgid "Footer: Column 4"
 msgstr ""
 
-#: functions.php:204
+#: functions.php:201
 msgid "Footer: Column 5"
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:167
-msgid "Foundation"
-msgstr ""
-
-#: ilovewp-admin/admin-notices/ilovewp-notice-upgrade.php:75
-msgid "FOUNDATION Details & Video"
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:159
-msgid ""
-"Foundation is our newest WordPress theme for photographers. It contains many "
-"additional features and customization options. It also comes with priority "
-"one-on-one support."
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:212
-msgid ""
-"Frequent theme updates will contain new features, block patterns and other "
-"ideas suggested by our customers."
 msgstr ""
 
 #: inc/customizer.php:390
@@ -351,24 +298,8 @@ msgstr ""
 msgid "Front Page: Featured Page #5"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:187
-#: ilovewp-admin/ilovewp-theme-settings.php:192
-msgid "Full"
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:187
-msgid ""
-"Full color customizations options will allow you to fully customize the look "
-"of your website."
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:192
-msgid ""
-"Full typeface & font customizations options will allow you to fully "
-"customize the look of your website, with free access to 1000+ Google Fonts."
-msgstr ""
-
 #. Name of the template
+#: page-templates/fullwidth.php:2
 msgid "Full Width Page"
 msgstr ""
 
@@ -398,11 +329,11 @@ msgstr ""
 msgid "Hide this notice"
 msgstr ""
 
-#: functions.php:134
+#: functions.php:131
 msgid "Homepage: Left Column"
 msgstr ""
 
-#: functions.php:144
+#: functions.php:141
 msgid "Homepage: Right Column"
 msgstr ""
 
@@ -414,7 +345,7 @@ msgstr ""
 msgid "https://www.ilovewp.com/themes/faith/"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:125
+#: ilovewp-admin/ilovewp-theme-settings.php:139
 msgid ""
 "If you enjoy using Faith Theme, please leave a review for it on WordPress."
 "org. It helps us continue providing updates and support for it."
@@ -428,18 +359,10 @@ msgstr ""
 msgid "ilovewpcom"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:200
-msgid "Import the demo content for an easier start with the theme."
-msgstr ""
-
-#: template-parts/content-home-featured.php:67
+#: template-parts/content-home-featured.php:81
 msgid ""
 "Important: This message is NOT visible to site visitors, only to admins and "
 "editors."
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:195
-msgid "Individual Layout Settings"
 msgstr ""
 
 #: 404.php:16
@@ -454,17 +377,8 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:123
+#: ilovewp-admin/ilovewp-theme-settings.php:137
 msgid "Leave a Review"
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:186
-#: ilovewp-admin/ilovewp-theme-settings.php:211
-msgid "Limited"
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:186
-msgid "Limited color customization options are available."
 msgstr ""
 
 #: inc/customizer.php:175
@@ -475,11 +389,15 @@ msgstr ""
 msgid "Link Color :hover"
 msgstr ""
 
-#: functions.php:384
+#: functions.php:381
 msgid "Logo for "
 msgstr ""
 
-#: functions.php:124
+#: ilovewp-admin/admin-notices/ilovewp-notice-magma.php:75
+msgid "Magma Video Guide"
+msgstr ""
+
+#: functions.php:121
 msgid "Main Sidebar"
 msgstr ""
 
@@ -492,7 +410,7 @@ msgstr ""
 msgid "Menu"
 msgstr ""
 
-#: functions.php:53 template-parts/mobile-menu.php:14
+#: functions.php:49 template-parts/mobile-menu.php:14
 msgid "Mobile Menu"
 msgstr ""
 
@@ -500,25 +418,20 @@ msgstr ""
 msgid "Monthly Archives"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:161
-msgid "More about Foundation"
+#: ilovewp-admin/ilovewp-theme-settings.php:130
+msgid "More about Magma"
 msgstr ""
 
 #: comments.php:46 comments.php:67
 msgid "Newer Comments"
 msgstr ""
 
-#: template-parts/content-home-featured.php:63
+#: template-parts/content-home-featured.php:77
 msgid "No Featured Pages Found"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:191 inc/customizer.php:481
-#: inc/customizer.php:531 inc/customizer.php:615
+#: inc/customizer.php:481 inc/customizer.php:531 inc/customizer.php:615
 msgid "None"
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:221
-msgid "Nonpriority"
 msgstr ""
 
 #: inc/customizer.php:71
@@ -542,31 +455,19 @@ msgstr ""
 msgid "Pages:"
 msgstr ""
 
-#: ilovewp-admin/admin-notices/ilovewp-notice-upgrade.php:56
-msgid "Photozoom Theme Screenshot"
-msgstr ""
-
-#: functions.php:311
+#: functions.php:308
 msgid "Pingback:"
 msgstr ""
 
-#: functions.php:52
+#: functions.php:48
 msgid "Primary Menu"
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:222
-msgid "Priority Support"
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:222
-msgid "Quick and friendly support is available via email and Skype."
 msgstr ""
 
 #: inc/customizer.php:81
 msgid "Rate Faith"
 msgstr ""
 
-#: template-parts/content-home-featured.php:43
+#: template-parts/content-home-featured.php:58
 msgid "Read More"
 msgstr ""
 
@@ -579,10 +480,6 @@ msgstr ""
 
 #: index.php:33
 msgid "Recent Posts"
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:175
-msgid "Responsive Layout"
 msgstr ""
 
 #. search results term
@@ -600,10 +497,11 @@ msgid "Show sub menu"
 msgstr ""
 
 #. Name of the template
+#: page-templates/sidebar-page.php:2
 msgid "Sidebar-Page"
 msgstr ""
 
-#: functions.php:154
+#: functions.php:151
 msgid "Site Header"
 msgstr ""
 
@@ -637,16 +535,12 @@ msgid ""
 "different keywords."
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:145
+#: ilovewp-admin/ilovewp-theme-settings.php:159
 msgid "Subscribe"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:137
+#: ilovewp-admin/ilovewp-theme-settings.php:151
 msgid "Subscribe to our newsletter"
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:220
-msgid "Support"
 msgstr ""
 
 #. Theme name and link to WordPress.org Support forum for the theme
@@ -661,10 +555,6 @@ msgstr ""
 msgid "Support Forum"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:221
-msgid "Support is provided in the WordPress.org community forums."
-msgstr ""
-
 #. %s: list of tags
 #: template-parts/content-single.php:47
 #, php-format
@@ -673,10 +563,6 @@ msgstr ""
 
 #: ilovewp-admin/admin-notices/ilovewp-notice-welcome.php:49
 msgid "Thank you for choosing Faith Theme!"
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:211
-msgid "The theme will be updated to fix potential bugs and serious issues."
 msgstr ""
 
 #: ilovewp-admin/ilovewp-theme-settings.php:101
@@ -714,23 +600,19 @@ msgstr ""
 msgid "Theme Settings"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:210
-msgid "Theme Updates"
-msgstr ""
-
 #: ilovewp-admin/ilovewp-theme-settings.php:81
 #: ilovewp-admin/ilovewp-theme-settings.php:111
 msgid "Theme Video Tutorial"
 msgstr ""
 
-#: functions.php:166 functions.php:176 functions.php:186 functions.php:196
-#: functions.php:206
+#: functions.php:163 functions.php:173 functions.php:183 functions.php:193
+#: functions.php:203
 msgid ""
 "This is displayed in the footer of the website. By default has a width of "
 "275px."
 msgstr ""
 
-#: functions.php:126
+#: functions.php:123
 msgid "This is the main sidebar area that appears on all pages."
 msgstr ""
 
@@ -740,7 +622,7 @@ msgstr ""
 msgid "This list is populated with <a href=\"%1$s\">Pages</a>."
 msgstr ""
 
-#: template-parts/content-home-featured.php:66
+#: template-parts/content-home-featured.php:80
 msgid ""
 "This section will display your featured pages. Configure (or disable) it via "
 "the Customizer."
@@ -754,13 +636,8 @@ msgid ""
 "look at the <a href=\"%2$s\">Get Started with %1$s</a> page."
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:170
-msgid "Unlimited theme usage"
-msgstr ""
-
-#: ilovewp-admin/ilovewp-theme-settings.php:157
-#: ilovewp-admin/ilovewp-theme-settings.php:225
-msgid "Upgrade to Foundation"
+#: ilovewp-admin/ilovewp-theme-settings.php:126
+msgid "Upgrade to Magma"
 msgstr ""
 
 #: template-parts/content-single.php:21 template-parts/content.php:36
@@ -768,42 +645,42 @@ msgctxt "Used on archive and post pages to separate multiple categories."
 msgid ", "
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:161
-msgid "Video about Foundation"
+#: ilovewp-admin/ilovewp-theme-settings.php:130
+msgid "Video about Magma"
 msgstr ""
 
 #: ilovewp-admin/ilovewp-theme-settings.php:104
 msgid "View Faith Documentation"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:140
+#: ilovewp-admin/ilovewp-theme-settings.php:154
 msgid ""
 "We send out the newsletter once every few months. It contains information "
 "about our new themes and important theme updates."
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:147
+#: ilovewp-admin/ilovewp-theme-settings.php:161
 msgid ""
 "We use Mailchimp as our marketing platform. By clicking above to subscribe, "
 "you acknowledge that your information will be transferred to Mailchimp for "
 "processing."
 msgstr ""
 
-#: functions.php:156
+#: functions.php:153
 msgid "Works best with a search widget."
 msgstr ""
 
-#: functions.php:136
+#: functions.php:133
 msgid ""
 "Works best with a standard Text Widget. The widget title will be wrapped in "
 "a <h1></h1> tag."
 msgstr ""
 
-#: functions.php:146
+#: functions.php:143
 msgid "Works best with a widget like Recent Posts."
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:127
+#: ilovewp-admin/ilovewp-theme-settings.php:141
 msgid "Write a Review for Faith"
 msgstr ""
 
@@ -811,11 +688,6 @@ msgstr ""
 msgid "Y"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:170
-msgid ""
-"You can use the theme on any number of websites for as long as you wish."
-msgstr ""
-
-#: functions.php:335
+#: functions.php:332
 msgid "Your comment is awaiting moderation."
 msgstr ""

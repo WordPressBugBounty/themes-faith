@@ -6,13 +6,17 @@ Tags: education, footer-widgets, one-column, two-columns, left-sidebar, right-si
 Requires at least: 5.6
 Tested up to: 6.0
 Stable tag: 1.2.12
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 == Description ==
 
 Description: Faith is a free responsive WordPress theme for churches and other religious organizations, nonprofits, museums, educational organizations, schools, etc. It works well with page builders like Elementor, Beaver Builder, Visual Composer, Brizy, Divi, SiteOrigin, Gutenberg, etc. It works well with the Block Editor and with custom block patterns Up to 10 pages can be featured on the homepage, 5 in the slideshow and 5 below it. 
 
+== License ==
+
+Faith WordPress theme, Copyright (C) 2025 ILOVEWP
+Faith WordPress theme is licensed under the GPL3.
 
 == Installation ==
 
@@ -45,7 +49,7 @@ The footer area contains 5 widgetized columns of equal width.
 
 == Licensing ==
 
-Faith WordPress theme, Copyright 2020 IloveWP.com
+Faith WordPress theme, Copyright 2025 IloveWP.com
 Distributed under the GNU GPL
 
 Faith WordPress theme bundles the following third-party resources:
@@ -165,3 +169,6 @@ Copyright: WooThemes, WooThemes.com
 
 = 20 June 2023
 * 1.3.1 Bug fix with websites that have Header Images but no Featured Images.
+
+= 7 February 2025
+* 1.3.2 Added an additional upgrade notice.
